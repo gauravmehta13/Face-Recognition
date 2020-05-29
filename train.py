@@ -1,5 +1,4 @@
-import matplotlib
-matplotlib.use('Agg')
+#test1
 import os  # accessing the os functions
 from check_camera import camer
 from PIL import ImageTk,Image
