@@ -1,8 +1,9 @@
 FROM ubuntu
 MAINTAINER Gaurav Yadav <gauravmehta@outlook.in>
-RUN apt-get install python3.6
-RUN apt-get install python3-pip
-RUN pip3 --upgrade pip
+RUN apt-get update -y
+RUN apt-get install python3.6 -y
+RUN apt-get install python3-pip -y
+RUN pip3 install --upgrade pip
 RUN pip3 install opencv-python
 RUN pip3 install pillow
 RUN pip3 install pandas
